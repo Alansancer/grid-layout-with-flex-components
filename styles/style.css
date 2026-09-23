@@ -11,6 +11,9 @@ body {
 }
 
 .emoji {
+  width: 450px;
+  height:280px;
+
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;

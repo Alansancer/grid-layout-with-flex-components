@@ -11,9 +11,6 @@ body {
 }
 
 .emoji {
-  width: 450px;
-  height:280px;
-
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
@@ -42,8 +39,10 @@ body {
 
 .emojis {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2,1fr);
     grid-gap:15px;
+    width: 850px;
+    height: 250px;
 }
 .emoji {
   display: flex;
